@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+cred.json
+app.key
+app.pub
