@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "curly-api-v4",
+  "private_key_id": "29c1eb73928412fdb29def20df29dd2eee470698",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0DJj18ujhXX0s\natCbjcG0P/S7b3pKf0kGOg9ILXYLLYhP3vsEf9//cGL5cmdaJW0dhxt0PuN1AkDc\nBNYHB62emJkkTY6e/0ID6iGT64xiS3Gxs/bDBDxOXT4KMcIHvKzPoBGC53M0k1U1\nUkB5x1zGuIddqu2FK0Ia3fhLnA+Fq/2/UK8MFGKGOB2IW5waJsea987B8+ebMVC5\n0mns6eznWLBIl1lyhghX2LENTWvGpQJj2mvZa3PWlrQrLCmHvg4zY50PVxgNwxnd\ns7/mPQc2MUYRZfJneRNdw6LHkMYKygJnJDzx4hSJunNHH9zX8ffINqnvcchdt0Q6\nlKFORJrhAgMBAAECggEAQ9PvF9CPvL7MdhwzRDaN/4qMdsQTTNdQukDLGwTNUH6x\nuG0nIVXPG9rJ3nEj0EkDJzmLtSov5BeaOYi03GcfF/0izBNPpERDKVhdl+0HsMv9\nI9XJI0SIN3lW8t4121ZPv9PsZOUueGL8mZ7H3VimcdJ4ZGgNHLrkJ1zxugIrss4p\nuoC4YqzrX4FATinzwt0U9sBIcRcD2++a7KWVAc+HJG52LYRprOAnfkqNP5cu+0R4\nj7Q0H7tjCyT+x4fNy6t28MjVo+s+yDRQrhh0aGV6SjNWcNQYXD1iiSRCCnO2ObyU\nMj0W993LlVHYqdJp0gNfel0R32RINM9sR65XyVNWVQKBgQD4/i1JyM3bNVrYj1Mb\n91QEZHcrzOm/e0M9dsTFF3sLAGPK02GMQ5Qd0P3fbLcnp2pWcy33hyOSCfoL6nx3\noM92Wez7Uy46i48HcDTqCw+Fu1YS84Q36dhHfodFGzofRDR6b2HVgKj36d/v/5an\nP6qm4tAQUNiBZSyskbIOBt8E4wKBgQC5HbqLpQqjBHWKPmOCiyW3XOVzxkADiHcf\npndGwHYkJmtAhL9FhdwQmNrYKIUcH8YoNe46BxG3fP+ZU4VNmRGNEtEOKoSaUsD/\nhVJuHa+GmwOsbqPoFw+KHeXTDZzPt9y3BjCnyEXxp3W/RHnwhcc+Vp02CpRtv/t9\nMmxahcEwawKBgQCXLEt21tIVW2mSvkIpYprCJ/UqxLjOpxoGAUwqlb0AyvXLuVcq\ngAU3rSHWOv1guAaaAkhQVt5D1obYIT/8qcgMBUEavj/9D6qBS6D00E5WVY1G6E7I\nW9QSZEHgtU0umox6IZH2vKzaCEcMQdPIK6GCvYaxwUQSG8lp5POEDKvvHQKBgEj6\ntGmLVmcwQdqPgBGeI+9nGzqKZQA/k58RtKJbC/hygQP9kZ6qCDku2dAwIVIWILwH\njvSnhs+M4wOijsIp32Z7jZmFH6PrjhTujbHF2EY75LXdJJdCSCkOYmXTTwgBF228\nbgAnj5OWjnAqYdx2ETe9U9tTTnL6Jf6Um20QoDojAoGBAODhnfTXcHEwVL50x+5t\nK4iTjyG4wkRzSOmGepsIQNszJh+0aWxIQauseDAz41eOGcLduBfT0fhnLaIvlflz\n5Y6vrRYUY9veYUHNjrE9a2uOY8i+bhWpiE0eqJbW0sNy8HVvfOyRmiKq9tJcxUzY\nVF/jQyAcd6COYjZkBqyHYPhP\n-----END PRIVATE KEY-----\n",
+  "client_email": "curlyapiv4@curly-api-v4.iam.gserviceaccount.com",
+  "client_id": "107907009809174686599",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/curlyapiv4%40curly-api-v4.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
