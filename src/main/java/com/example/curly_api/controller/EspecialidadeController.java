@@ -30,6 +30,7 @@ public class EspecialidadeController {
     private UserRepository userRepository;
     private UserService userService;
 
+    @CrossOrigin(origins = "http://localhost:5173")
     @PostMapping("/{userId}")
     public ResponseEntity<Especialidade> createEspecialidade(@PathVariable("userId") String userId,
                                                              @RequestBody CreateEspecialidadeDto createEspecialidadeDto) {
@@ -42,6 +43,7 @@ public class EspecialidadeController {
         }
     }
 
+    @CrossOrigin(origins = "http://localhost:5173")
     @PutMapping("/{idEspecialidade}")
     public ResponseEntity<Optional<Especialidade>> updateEspecialidade(@PathVariable("idEspecialidade") Long idEspecialidade,
                                                                        @RequestBody UpdateEspecialidadeDto updateEspecialidadeDto) {
@@ -52,6 +54,7 @@ public class EspecialidadeController {
         }
     }
 
+    @CrossOrigin(origins = "http://localhost:5173")
     @GetMapping("/{userId}")
     public ResponseEntity<List<Especialidade>> getAllEspecialidades(@PathVariable("userId") String userId) {
         if (userRepository.existsById(userId)) {
@@ -61,6 +64,7 @@ public class EspecialidadeController {
         }
     }
 
+    @CrossOrigin(origins = "http://localhost:5173")
     @DeleteMapping("/{userId}/{idEspecialidade}")
     public ResponseEntity deleteEspecialidade(@PathVariable("idEspecialidade") Long idEspecialidade,
                                                               @PathVariable("userId") String userId) {

@@ -26,28 +26,33 @@ public class UserController {
 
     private UserService userService;
 
+    @CrossOrigin(origins = "http://localhost:5173")
     @PostMapping("/users")
     public ResponseEntity<User> createUser(@RequestBody CreateUserDto createUserDto) {
         return ResponseEntity.ok(userService.createUser(createUserDto));
     }
 
+    @CrossOrigin(origins = "http://localhost:5173")
     @GetMapping("/users")
     public ResponseEntity<List<User>> getUsers() {
         return ResponseEntity.ok(userService.getUsers());
     }
 
+    @CrossOrigin(origins = "http://localhost:5173")
     @GetMapping("/users/{id}")
     public ResponseEntity<User> getUserById(@PathVariable("id") String userId) {
         var user = userService.getUserById(userId);
         return ResponseEntity.ok(user.get());
     }
 
+    @CrossOrigin(origins = "http://localhost:5173")
     @PutMapping("/users/{userId}")
     public ResponseEntity<Optional<User>> updateUser(@PathVariable("userId") String userId,
                                                      @RequestBody(required = false) UpdateUserDto updateUserDto) {
         return ResponseEntity.ok(userService.updateUser(userId, updateUserDto));
     }
 
+    @CrossOrigin(origins = "http://localhost:5173")
     @DeleteMapping("/users/{userId}")
     public ResponseEntity deleteUser(@PathVariable("userId") String userId) {
 

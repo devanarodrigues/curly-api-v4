@@ -124,6 +124,16 @@ public class User implements UserDetails {
 
     @Getter
     @Setter
+    @OneToMany(mappedBy = "user", cascade = CascadeType.PERSIST)
+    private List<Favorito> favoritos;
+
+    @Getter
+    @Setter
+    @OneToMany(mappedBy = "user", cascade = CascadeType.PERSIST)
+    private List<Postagem> postagens;
+
+    @Getter
+    @Setter
     private boolean isAccountNonExpired;
 
     @Getter
